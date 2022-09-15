@@ -10,9 +10,21 @@
         body{
             background-color: #9bafd9;
         }
+
+        .formatar-indice {
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 40px;
+            
+            
+            
+        }
         
         h1{
-            font-family:monospace;            
+            font-family:monospace;
+            text-align: center;
+            color: #183182;      
         }
 
         p{
@@ -35,6 +47,16 @@
             font-weight: 600;
         }
 
+        .foto-centralizada{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h2{
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
@@ -45,19 +67,23 @@
             Índice
         </strong>
     </h1>
-
-    <a href="#Foto">- Foto</a>
-    <br>
-    <a href="#Quem sou eu?">- Quem sou eu?</a>
-    <br>
-    <a href="#Habilidades">- Habilidades</a>
-    <br>
-    <a href="#Links">- Links</a>
+    
+    <div class="formatar-indice">
+        <a href="#Foto">Foto</a>
+        <br>
+        <a href="#Quem sou eu?">Quem sou eu?</a>
+        <br>
+        <a href="#Habilidades">Habilidades</a>
+        <br>
+        <a href="#Links">Links</a>
+    </div>
+    
+    
 
     <!--Seção 1 - Nome e Foto-->>
     <h1 id="Foto">Bruno Henrique Madruga de Almeida Rodrigues</h1>
 
-    <img src="/Imagens/foto-bruno.png" alt="Bruno Rodrigues" width="200px">
+    <img class="foto-centralizada" src="/Imagens/foto-bruno.png" alt="Bruno Rodrigues" width="200px">
 
     <!--Seção 2 - Descrição sobre mim-->>
 
@@ -85,11 +111,11 @@
 
     <!--Seção 3 - Lista de Habilidades-->>
 
-    <h3 id="Habilidades">
+    <h2 id="Habilidades">
         <strong>
             Habilidades:
         </strong>
-    </h3>
+    </h2>
     
     <ul>
         <li class="destaque-item-lista-prioridade-alta"> Criatividade </li>
@@ -105,7 +131,10 @@
     </ul>
 
     <!--Seção 4 - Foto-->>
-    <h4 id="Links">Links</h4>
+    <h2 id="Links">
+        Links        
+    </h2>
+
     <a href=""></a> <!-- Link Interno para foto-->
     
     <!--Seção 5 - Link do Blog-->>
