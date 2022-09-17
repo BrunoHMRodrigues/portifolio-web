@@ -6,139 +6,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <style>
-        body{
-            background-color: #9bafd9;
-        }
+    <link rel="stylesheet" href="./style.css">
 
-        .formatar-indice {
-            text-align: center;
-            font-size: 24px;
-            font-weight: 600;
-            line-height: 40px;
-            
-            
-            
-        }
-        
-        h1{
-            font-family:monospace;
-            text-align: center;
-            color: #183182;      
-        }
-
-        p{
-            font-family:'Times New Roman', Times, serif;
-        }
-
-        .destaque-informacoes{
-            color:darkblue;
-        }
-
-        .destaque-item-lista-prioridade-alta{
-            font-size: 24px;
-            font-style: italic;
-            font-weight: 600;
-        }
-
-        .destaque-item-lista-prioridade-medio{
-            font-size: 18px;
-            font-style: italic;
-            font-weight: 600;
-        }
-
-        .foto-centralizada{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        h2{
-            text-align: center;
-        }
-
-    </style>
 </head>
 <body>
 
     <!-- Seção 0 - Índice -->
-    <h1>
-        <strong>
-            Índice
-        </strong>
-    </h1>
-    
-    <div class="formatar-indice">
-        <a href="#Foto">Foto</a>
-        <br>
-        <a href="#Quem sou eu?">Quem sou eu?</a>
-        <br>
-        <a href="#Habilidades">Habilidades</a>
-        <br>
-        <a href="#Links">Links</a>
+    <div class="indice">
+        <h1>
+            <strong>
+                Índice
+            </strong>
+        </h1>
+        
+        <div class="formatar-indice">
+            <div>
+                <a href="#Nome">Nome</Nome></a>
+            </div>
+            
+            <div>
+                <a href="#Quem sou eu?">Quem sou eu?</a>
+            </div>
+
+            <div>
+                <a href="#Habilidades">Habilidades</a>
+            </div>
+
+            <div></div>
+                <a href="#Links">Links</a>
+            </div>
+        </div>
     </div>
-    
     
 
     <!--Seção 1 - Nome e Foto-->>
-    <h1 id="Foto">Bruno Henrique Madruga de Almeida Rodrigues</h1>
+    <div class="identidade">
+        <h1 id="Nome">Bruno Henrique Madruga de Almeida Rodrigues</h1>
 
-    <img class="foto-centralizada" src="/Imagens/foto-bruno.png" alt="Bruno Rodrigues" width="200px">
+        <img class="foto-centralizada" src="/Imagens/foto-bruno.png" alt="Bruno Rodrigues" width="200px">
+    </div>
 
     <!--Seção 2 - Descrição sobre mim-->>
 
-    <h2 id="Quem sou eu?">
-        <strong>
-            Quem sou eu?
-        </strong> 
-    </h2>
+    <div class="descricao">
+        <h2 id="Quem sou eu?">
+            <strong>
+                Quem sou eu?
+            </strong> 
+        </h2>
 
-    <p>
-        Me chamo Bruno Rodrigues, sou <strong class="destaque-informacoes">brasileiro</strong>nascido em <strong class="destaque-informacoes"> Natal no Rio Grande do Norte </strong> onde também resido atualmente.
-        <br>
-        <br>
-        Sou formado em <strong class="destaque-informacoes">Engenharia de Produção</strong> pela Universidade Federal do Rio Grande do Norte, já estagiei em empresas como a Bonor onde pude atuar na área de Planejamento e Controle da Produção e na Salina Soledade onde além de estagiar também pude trabalhar na área.
-        <br>
-        <br>
-        Nos últimos anos minha curiosidade e interesses criativos me levaram para a área de desenho 3D, aprendi a usar softwares como o Sketchup e o Enscape e iniciei atividades autônomas trabalhando com desenhos 3D de projetos arquitetônicos e design de móveis, junto com minha família.
-        <br>
-        <br>
-        Embora a área de 3D tenham conseguido desenvolver e atender a minha criatividade, <strong class="destaque-informacoes">desde que criei consciência de mim mesmo</strong> estou em contato com computadores e tive algumas alguns contatos com a programação em minha vida. Seja nas aulas de Algoritmo e programação que pude participar em minha graduação, ou meu contato com a linguagem de Visual Basic quando fiz um curso de Excel com VBA, e ao me ver perdendo a noção do tempo e <strong class="destaque-informacoes">olhando o relógio e ver que o dia já estava para raiar e eu estava programando um formulário de excel</strong> pude perceber então o quanto eu gosto da programação.
-        <br>
-        <br>
-        Quando foi decidir que curso fazer em minha faculdade, e até mesmo em decisões tomadas anos à frente, embora gostasse de programação a área sempre me pareceu faltar informação e uma forma definida de estudo, mas agora que descobri a Trybe estou aqui, a <strong class="destaque-informacoes">Trybe foi o caminho</strong> que surgiu em minha vida para me levar a uma área que sempre me atraiu e agora aprendo e descubro coisas novas todos os dias.
-    </p>
+        <p>
+            Me chamo Bruno Rodrigues, sou <strong class="destaque-informacoes">brasileiro</strong> nascido em <strong class="destaque-informacoes"> Natal no Rio Grande do Norte </strong> onde também resido atualmente.
+        </p>
+        
+        <p>
+            Sou formado em <strong class="destaque-informacoes"> Engenharia de Produção</strong> pela Universidade Federal do Rio Grande do Norte, já estagiei em empresas como a Bonor onde pude atuar na área de Planejamento e Controle da Produção e na Salina Soledade onde além de estagiar também pude trabalhar na área.
+        </p>
+        
+        <p>
+            Nos últimos anos minha curiosidade e interesses criativos me levaram para a área de desenho 3D, aprendi a usar softwares como o Sketchup e o Enscape e iniciei atividades autônomas trabalhando com desenhos 3D de projetos arquitetônicos e design de móveis, junto com minha família.
+        </p>
+            
+        <p>
+            Embora a área de 3D tenham conseguido desenvolver e atender a minha criatividade, <strong class="destaque-informacoes">desde que criei consciência de mim mesmo</strong> estou em contato com computadores e tive algumas alguns contatos com a programação em minha vida. Seja nas aulas de Algoritmo e programação que pude participar em minha graduação, ou meu contato com a linguagem de Visual Basic quando fiz um curso de Excel com VBA, e ao me ver perdendo a noção do tempo e <strong class="destaque-informacoes"> olhando o relógio e ver que o dia já estava para raiar e eu estava programando um formulário de excel</strong> pude perceber então o quanto eu gosto da programação.
+        </p>
+            
+        <p>
+            Quando foi decidir que curso fazer em minha faculdade, e até mesmo em decisões tomadas anos à frente, embora gostasse de programação a área sempre me pareceu faltar informação e uma forma definida de estudo, mas agora que descobri a Trybe estou aqui, a <strong class="destaque-informacoes">Trybe foi o caminho</strong> que surgiu em minha vida para me levar a uma área que sempre me atraiu e agora aprendo e descubro coisas novas todos os dias.
+        </p>
+    </div>
 
     <!--Seção 3 - Lista de Habilidades-->>
-
-    <h2 id="Habilidades">
-        <strong>
-            Habilidades:
-        </strong>
-    </h2>
     
-    <ul>
-        <li class="destaque-item-lista-prioridade-alta"> Criatividade </li>
-        <li class="destaque-item-lista-prioridade-medio">Responsabilidade</li>
-        <li class="destaque-item-lista-prioridade-medio">Inteligência Emocional</li>
-        <li>Colaboração</li>
-        <li class="destaque-item-lista-prioridade-medio">Pensamento Crítico</li>
-        <li>Inglês (Intermediário)</li>
-        <li>Microsoft Office</li>
-        <li>Excel com VBA</li>
-        <li>Sketchup</li>
-        <li>Enscape</li>
-    </ul>
+    <div class="habilidades">
+        <h2 id="Habilidades">
+            <strong>
+                Habilidades:
+            </strong>
+        </h2>
+        
+        <ul class="lista-habilidades">
+            <li class="destaque-item-lista-prioridade-alta"> Criatividade </li>
+            <li class="destaque-item-lista-prioridade-medio">Responsabilidade</li>
+            <li class="destaque-item-lista-prioridade-medio">Inteligência Emocional</li>
+            <li>Colaboração</li>
+            <li class="destaque-item-lista-prioridade-medio">Pensamento Crítico</li>
+            <li>Inglês (Intermediário)</li>
+            <li>Microsoft Office</li>
+            <li>Excel com VBA</li>
+            <li>Sketchup</li>
+            <li>Enscape</li>
+        </ul>
+    </div>
 
     <!--Seção 4 - Foto-->>
-    <h2 id="Links">
-        Links        
-    </h2>
+    
+    <div class="links">
+        <h2 id="Links">
+            Links        
+        </h2>
 
-    <a href=""></a> <!-- Link Interno para foto-->
+        <a href=""></a> <!-- Link Interno para foto-->
+    </div>
     
     <!--Seção 5 - Link do Blog-->>
-    <a href="" target="_blank"></a> <!-- Link Externo para um Blog-->
+    <div>
+        <a href="" target="_blank"></a> <!-- Link Externo para um Blog-->
+    </div>
 
     
     
